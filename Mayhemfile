@@ -1,8 +1,5 @@
 project: autocorrect
-target: autocorrect
-
-image: ghcr.io/ebell495/autocorrect:latest
-duration: 300
+target: fuzz
 
 cmds:
     - cmd: fuzz/fuzz.py
