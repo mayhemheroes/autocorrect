@@ -2,5 +2,5 @@ project: autocorrect
 target: fuzz
 
 cmds:
-    - cmd: fuzz/fuzz.py
+    - cmd: fuzz/fuzz_spellcheck.py
       libfuzzer: true
