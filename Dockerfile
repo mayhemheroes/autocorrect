@@ -1,4 +1,5 @@
-FROM python:3.8-bullseye
+FROM gcr.io/oss-fuzz-base/base-builder-python
+
 RUN pip3 install atheris
 
 COPY . /autocorrect
